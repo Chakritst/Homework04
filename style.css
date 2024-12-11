@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.box {
+    width: auto; 
+    max-width: 90vw; /* Prevent it from exceeding the viewport width */
+    border: 1px solid rgba(46, 0, 0, 0.103);
+    padding: 20px;
+    border-radius: 7px;
+    background-color: white;
+    box-shadow: 5px 10px 13px rgba(0, 0, 0, 0.292);
+    font-family: "Audiowide", sans-serif;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Add space between the image and input */
+    margin-bottom: 10px; /* Add spacing below the content */
+}
+
+.content img {
+    width: 20px;
+    height: 20px;
+}
+
+input {
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 5px; /* Add padding for better aesthetics */
+    border-radius: 6px; /* Optional: Rounded corners for a smoother look */
+    flex: 1; /* Input takes up remaining space */
+    border: none;
+    outline: none;
+}
+
+hr {
+    margin: 10px 0;
+    border: 0.5px solid rgba(224, 217, 217, 0.212);
+}
+
+.subcontent {
+    display: flex;
+    justify-content: space-between; /* Spread the items evenly */
+    align-items: center; /* Vertically align images and text */
+    gap: 10px; 
+    font-size: 13px;
+}
+
+.subcontent div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #0000009a;
+}
+
+.subcontent img {
+    width: 20px;
+    height: 20px;
+}
